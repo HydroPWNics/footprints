@@ -1,4 +1,4 @@
-(module QFP_64 (layer F.Cu) (tedit 57B692E2)
+(module STM32F446RET6 (layer F.Cu) (tedit 57B692E2)
   (fp_text reference REF** (at 0 -7.8) (layer F.SilkS)
     (effects (font (size 1.2 1.2) (thickness 0.15)))
   )
