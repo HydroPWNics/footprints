@@ -1,0 +1,8 @@
+(module Solder_JMPR (layer F.Cu) (tedit 57E04458)
+  (fp_text reference REF** (at -9.017 -5.842) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Solder_JMPR (at 0 4.699) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+)
