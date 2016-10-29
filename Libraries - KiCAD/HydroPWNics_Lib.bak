@@ -1112,6 +1112,38 @@ X ~ 2 250 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# CL10B224JO8NNNC
+#
+DEF CL10B224JO8NNNC C 0 40 Y Y 1 F N
+F0 "C" -200 150 60 H V C CNN
+F1 "CL10B224JO8NNNC" 50 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" 250 50 60 H I C CNN
+F3 "http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&fileName=C_CL10B224JO8NNNC.pdf" 250 50 60 H I C CNN
+F4 "0.03186 @ 4000" -100 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" 0 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" 100 450 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 200 550 60 H I C CNN "Designer"
+F8 "0.9mm" 300 650 60 H I C CNN "Height"
+F9 "Yes" 400 750 60 H I C CNN "RHoS?"
+F10 "Samsung Electro-Mechanics America, Inc." 500 850 60 H I C CNN "MFR"
+F11 "CL10B224JO8NNNC" 600 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 700 1050 60 H I C CNN "Mounting"
+F13 "2" 800 1150 60 H I C CNN "Pint Count#"
+F14 "Active" 900 1250 60 H I C CNN "Status"
+F15 "5%" 1000 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 1100 1450 60 H I C CNN "Type"
+F17 "16V" 1200 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1650 60 H I C CNN "Wattage"
+F19 "0.22uF" -225 -250 60 H V C CNN "Component-Value"
+F20 "0.22µF 16V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" 1500 1850 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -50 100 -50 -100 N
+P 2 0 1 0 0 100 0 -100 N
+X ~ 1 -250 0 200 R 50 50 1 1 I
+X ~ 2 200 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # CPF0402B22RE1
 #
 DEF CPF0402B22RE1 R 0 40 Y Y 1 F N
@@ -1270,6 +1302,37 @@ P 4 0 1 0 50 25 100 25 75 -25 50 25 f
 X ~ 1 -300 0 200 R 50 50 1 1 I
 X ~ 2 0 -300 200 U 50 50 1 1 I
 X ~ 3 0 300 200 D 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# ERA-2AED363X
+#
+DEF ERA-2AED363X R 0 40 Y Y 1 F N
+F0 "R" -300 350 60 H V C CNN
+F1 "ERA-2AED363X" 0 -150 60 H V C CNN
+F2 "PCB_Footprints:R0603" -400 250 60 H I C CNN
+F3 "https://media.digikey.com/pdf/Data%20Sheets/Panasonic%20Electronic%20Components/ERA%201A,2A,3A,6A,8A.pdf" -300 450 60 H I C CNN
+F4 "0.03300 @ 5000" 1550 1950 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -100 550 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" 0 650 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 100 750 60 H I C CNN "Designer"
+F8 "0.4mm" 200 850 60 H I C CNN "Height"
+F9 "Yes" 300 950 60 H I C CNN "RHoS?"
+F10 "Panasonic Electronic Components" 400 1050 60 H I C CNN "MFR"
+F11 "ERA-2AED363X" 500 1150 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 600 1250 60 H I C CNN "Mounting"
+F13 "2" 700 1350 60 H I C CNN "Pin Count#"
+F14 "Active" 800 1450 60 H I C CNN "Status"
+F15 "0.5%" 900 1550 60 H I C CNN "Tolerance"
+F16 "passive" 1000 1650 60 H I C CNN "Type"
+F17 "N/A" 1100 1750 60 H I C CNN "Voltage"
+F18 "1/16" 1200 1850 60 H I C CNN "Wattage"
+F19 "36K" -550 0 60 H V C CNN "Component-Value"
+F20 "RES SMD 36K OHM 0.5% 1/16W 0402" 1400 2050 60 H I C CNN "Description"
+DRAW
+P 9 0 1 0 -100 0 -75 50 -50 -50 -25 50 0 -50 25 50 50 -50 75 50 100 0 N
+X ~ 1 -300 0 200 R 50 50 1 1 I
+X ~ 2 300 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
@@ -1598,6 +1661,38 @@ X ~ 2 225 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GRM1555C1H101GA01D
+#
+DEF GRM1555C1H101GA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H101GA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00450 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1H101GA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "2%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "100pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "100pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # GRM1555C1H271FA01D
 #
 DEF GRM1555C1H271FA01D C 0 40 Y Y 1 F N
@@ -1630,6 +1725,198 @@ X ~ 2 225 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GRM1555C1H2R2CA01D
+#
+DEF GRM1555C1H2R2CA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H2R2CA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00285 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1H2R2CA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "2%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.2pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1H470FA01D
+#
+DEF GRM1555C1H470FA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H470FA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00900 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1H470FA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "47pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "47pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "47pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1H560JA01D
+#
+DEF GRM1555C1H560JA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C1H560JA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00250 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1H560JA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "5%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "56pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "56pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C2A1R8CA01D
+#
+DEF GRM1555C2A1R8CA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C2A1R8CA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00625 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C2A1R8CA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.25pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1.8pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "1.8pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C2A2R7CA01D
+#
+DEF GRM1555C2A2R7CA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C2A2R7CA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00625 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C2A2R7CA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.25pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.7pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "2.7pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C2A5R6DA01D
+#
+DEF GRM1555C2A5R6DA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM1555C2A5R6DA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00525 @ 10000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C2A5R6DA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.5pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "5.6pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "5.6pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # GRM1557U1A302JA01D
 #
 DEF GRM1557U1A302JA01D C 0 40 Y Y 1 F N
@@ -1654,6 +1941,38 @@ F17 "10V" 750 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
 F19 "3000pF" -525 -250 60 H V C CNN "Componen-Value"
 F20 "3000pF 10V Ceramic Capacitor U2J 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM155R71H152KA01D
+#
+DEF GRM155R71H152KA01D C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "GRM155R71H152KA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" -650 150 60 H I C CNN
+F4 "0.00225 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "28 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "28 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.51mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM155R71H152KA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "10%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "0.15uF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "1500pF 50V Ceramic Capacitor X7R 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -25 100 -25 -100 N
 P 2 0 1 0 25 100 25 -100 N
