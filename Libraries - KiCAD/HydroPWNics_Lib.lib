@@ -696,6 +696,38 @@ X ~ 2 225 0 200 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# 600S560FT250XT
+#
+DEF 600S560FT250XT C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "600S560FT250XT" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.atceramics.com/Userfiles/600s.pdf" -650 150 60 H I C CNN
+F4 "0.62910 @ 4000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "American Technical Ceramics" 50 850 60 H I C CNN "MFR"
+F11 "600S560FT250XT" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Microwave RF Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "100V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "56pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "56pF 250V Ceramic Capacitor C0G, NP0 0603 (1608 Metric) 0.063\" L x 0.032\" W (1.60mm x 0.81mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # 744901027
 #
 DEF 744901027 L 0 40 Y Y 1 F N
@@ -918,6 +950,40 @@ X GPIO1 18 950 -250 200 L 50 50 1 1 P
 X XOSC32KN_ATB2 28 0 1000 200 D 50 50 1 1 P
 X GPIO2 19 950 -150 200 L 50 50 1 1 P
 X VDDBAT1 29 -100 1000 200 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# AP2112K-3.3TRG1
+#
+DEF AP2112K-3.3TRG1 U 0 40 Y Y 1 F N
+F0 "U" -250 200 60 H V C CNN
+F1 "AP2112K-3.3TRG1" 100 -200 60 H V C CNN
+F2 "PCB_Footprints:AP2112K-3.3TRG1" 1700 2000 60 H I C CNN
+F3 "http://www.diodes.com/_files/datasheets/AP2112.pdf" -250 200 60 H I C CNN
+F4 "0.11866 @ 1000" -150 300 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -50 400 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" 50 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 600 60 H I C CNN "Designer"
+F8 "1.45mm" 250 700 60 H I C CNN "Height"
+F9 "Yes" 350 800 60 H I C CNN "RHoS?"
+F10 "Diodes Inc" 450 900 60 H I C CNN "MFR"
+F11 "AP2112K-3.3TRG1" 550 1000 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1100 60 H I C CNN "Mounting"
+F13 "4" 750 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1300 60 H I C CNN "Status"
+F15 "N/A" 950 1400 60 H I C CNN "Tolerance"
+F16 "LDO Linear DC Voltage Regulator" 1050 1500 60 H I C CNN "Type"
+F17 "6V input 3.3V Output" 1150 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1700 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1800 60 H I C CNN "Component-Value"
+F20 "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 600mA SOT-23-5" 1450 1900 60 H I C CNN "Description"
+DRAW
+S -300 150 300 -150 0 1 0 f
+X VIN 1 -500 100 200 R 50 50 1 1 I
+X GND 2 -500 0 200 R 50 50 1 1 P
+X EN 3 -500 -100 200 R 50 50 1 1 P
+X NC 4 500 -100 200 L 50 50 1 1 O
+X VOUT 5 500 100 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
@@ -1400,6 +1466,102 @@ F17 "16V" 750 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
 F19 "0.15uF" -525 -250 60 H V C CNN "Componen-Value"
 F20 "0.15µF 16V Ceramic Capacitor X7R 0603 (1608 Metric) 0.063\" L x 0.031\" W (1.60mm x 0.80mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CBR04C101F3GAC
+#
+DEF CBR04C101F3GAC C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "CBR04C101F3GAC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/docfinder?Partnumber=C0603C154J4RACTU" -650 150 60 H I C CNN
+F4 "0.10545 @ 1000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.87mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "CBR04C101F3GAC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "5%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "100pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "100pF 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CBR04C470F3GAC
+#
+DEF CBR04C470F3GAC C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "CBR04C470F3GAC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/docfinder?Partnumber=CBR04C470F3GAC" -650 150 60 H I C CNN
+F4 "0.09472 @ 10.000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "CBR04C470F3GAC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "47pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "47pF 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# CBR04C560F1GAC
+#
+DEF CBR04C560F1GAC C 0 40 Y Y 1 F N
+F0 "C" -600 -50 60 H V C CNN
+F1 "CBR04C560F1GAC" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://www.kemet.com/Lists/ProductCatalog/Attachments/490/KEM_C1030_CBR_SMD.pdf" -650 150 60 H I C CNN
+F4 "0.18833 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Kemet" 50 850 60 H I C CNN "MFR"
+F11 "CBR04C560F1GAC" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "1%" 550 1350 60 H I C CNN "Tolerance"
+F16 "Microwave RF Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "100V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "56pF" -525 -250 60 H V C CNN "Componen-Value"
+F20 "56pF 100V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -25 100 -25 -100 N
 P 2 0 1 0 25 100 25 -100 N
@@ -2149,6 +2311,134 @@ X ~ 1 -200 0 200 R 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# GJM1555C1H1R0BB01D
+#
+DEF GJM1555C1H1R0BB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H1R0BB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GJM1555C1H1R0BB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.02418 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H1R0BB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.1pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GJM1555C1H1R2WB01D
+#
+DEF GJM1555C1H1R2WB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H1R2WB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.en.murata.com/capacitor/product/GJM1555C1H5R6BB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.00900 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H1R2WB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.05pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1.2pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GJM1555C1H2R2WB01D
+#
+DEF GJM1555C1H2R2WB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H2R2WB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GJM1555C1H2R2WB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.05265 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H2R2WB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.05pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.2pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "2.2pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GJM1555C1H2R7WB01D
+#
+DEF GJM1555C1H2R7WB01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GJM1555C1H2R7WB01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.murata.com/capacitor/product/GJM1555C1H2R7WB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.05265 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GJM1555C1H2R7WB01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.05pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402 RF Grade" 650 1450 60 H I C CNN "Type"
+F17 "50V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "2.7pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "2.7pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # GJM1555C1H5R6BB01D
 #
 DEF GJM1555C1H5R6BB01D C 0 40 Y Y 1 F N
@@ -2173,6 +2463,38 @@ F17 "50V" 750 1550 60 H I C CNN "Voltage"
 F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
 F19 "5.6pF" -650 -250 60 H V C CNN "Componen-Value"
 F20 "5.6pF 50V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
+DRAW
+P 2 0 1 0 -25 100 -25 -100 N
+P 2 0 1 0 25 100 25 -100 N
+X ~ 1 -225 0 200 R 50 50 1 1 I
+X ~ 2 225 0 200 L 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# GRM1555C1E1R2BA01D
+#
+DEF GRM1555C1E1R2BA01D C 0 40 Y Y 1 F N
+F0 "C" -675 -50 60 H V C CNN
+F1 "GRM1555C1E1R2BA01D" -300 -150 60 H V C CNN
+F2 "PCB_Footprints:C0402" -750 50 60 H I C CNN
+F3 "http://psearch.en.murata.com/capacitor/product/GJM1555C1H5R6BB01%23.pdf" -650 150 60 H I C CNN
+F4 "0.00900 @ 5000" -550 250 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -450 350 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" -350 450 60 H I C CNN "Date Modifed"
+F7 "Adam Vadala-Roth" -250 550 60 H I C CNN "Designer"
+F8 "0.55mm" -150 650 60 H I C CNN "Height"
+F9 "Yes" -50 750 60 H I C CNN "RHoS?"
+F10 "Murata Electronics North America" 50 850 60 H I C CNN "MFR"
+F11 "GRM1555C1E1R2BA01D" 150 950 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 250 1050 60 H I C CNN "Mounting"
+F13 "2" 350 1150 60 H I C CNN "Pin Count#"
+F14 "Active" 450 1250 60 H I C CNN "Status"
+F15 "0.1pF" 550 1350 60 H I C CNN "Tolerance"
+F16 "Ceramic Capacitor 0402" 650 1450 60 H I C CNN "Type"
+F17 "25V" 750 1550 60 H I C CNN "Voltage"
+F18 "N/A" 1300 1550 60 H I C CNN "Wattage"
+F19 "1.2pF" -650 -250 60 H V C CNN "Componen-Value"
+F20 "1.2pF 25V Ceramic Capacitor C0G, NP0 0402 (1005 Metric) 0.039\" L x 0.020\" W (1.00mm x 0.50mm)" 1500 1750 60 H I C CNN "Description"
 DRAW
 P 2 0 1 0 -25 100 -25 -100 N
 P 2 0 1 0 25 100 25 -100 N
@@ -3726,6 +4048,44 @@ DRAW
 P 2 0 1 0 75 0 125 -50 N
 P 2 0 1 0 75 0 125 50 N
 X ~ 1 -125 0 200 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
+# TLV1117-33IDRJR
+#
+DEF TLV1117-33IDRJR U 0 40 Y Y 1 F N
+F0 "U" -250 200 60 H V C CNN
+F1 "TLV1117-33IDRJR" 100 -400 60 H V C CNN
+F2 "PCB_Footprints:TLV1117-33IDRJR" 1700 2000 60 H I C CNN
+F3 "http://www.diodes.com/_files/datasheets/AP2112.pdf" -250 200 60 H I C CNN
+F4 "0.11866 @ 1000" -150 300 60 H I C CNN "Cost"
+F5 "30 Oct 2016" -50 400 60 H I C CNN "Date Created"
+F6 "30 Oct 2016" 50 500 60 H I C CNN "Date Modified"
+F7 "Adam Vadala-Roth" 150 600 60 H I C CNN "Designer"
+F8 "0.8mm" 250 700 60 H I C CNN "Height"
+F9 "Yes" 350 800 60 H I C CNN "RHoS?"
+F10 "Texas Instruments" 450 900 60 H I C CNN "MFR"
+F11 "TLV1117-33IDRJR" 550 1000 60 H I C CNN "MFR#"
+F12 "SMT/SMD" 650 1100 60 H I C CNN "Mounting"
+F13 "4" 750 1200 60 H I C CNN "Pin Count#"
+F14 "Active" 850 1300 60 H I C CNN "Status"
+F15 "N/A" 950 1400 60 H I C CNN "Tolerance"
+F16 "LDO Linear DC Voltage Regulator" 1050 1500 60 H I C CNN "Type"
+F17 "3V3" 1150 1600 60 H I C CNN "Voltage"
+F18 "N/A" 1250 1700 60 H I C CNN "Wattage"
+F19 "N/A" 1350 1800 60 H I C CNN "Component-Value"
+F20 "Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 800mA 8-SON Exposed Pad (4x4)" 1450 1900 60 H I C CNN "Description"
+DRAW
+S -300 150 300 -350 0 1 0 f
+X GND 1 -500 100 200 R 50 50 1 1 I
+X VIN 2 -500 0 200 R 50 50 1 1 P
+X VIN 3 -500 -100 200 R 50 50 1 1 P
+X VIN 4 -500 -200 200 R 50 50 1 1 P
+X VOUT 5 500 -200 200 L 50 50 1 1 O
+X VOUT 6 500 -100 200 L 50 50 1 1 O
+X VOUT 7 500 0 200 L 50 50 1 1 O
+X NC 8 500 100 200 L 50 50 1 1 O
+X VOUT-PAD ~ 500 -300 200 L 50 50 1 1 O
 ENDDRAW
 ENDDEF
 #
