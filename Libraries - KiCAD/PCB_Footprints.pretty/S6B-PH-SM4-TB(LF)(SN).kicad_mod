@@ -1,4 +1,4 @@
-(module "S6B-PH-SM4-TB(LF)(SN)" (layer F.Cu) (tedit 5820284E)
+(module "S6B-PH-SM4-TB(LF)(SN)" (layer F.Cu) (tedit 58291C48)
   (descr http://www.jst-mfg.com/product/pdf/eng/ePH.pdf)
   (tags "connector jst ph")
   (attr smd)
@@ -48,9 +48,9 @@
   (pad 3 smd rect (at -1 -2.775) (size 1 3.5) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at -3 -2.775) (size 1 3.5) (layers F.Cu F.Paste F.Mask))
   (pad 1 smd rect (at -5 -2.775) (size 1 3.5) (layers F.Cu F.Paste F.Mask))
-  (model "C:/Users/adam/Documents/GitHub/footprints/3D/STEP/S6B-PH-SM4-TB(LF)(SN).step"
-    (at (xyz -0.6259842519685039 0.5019685039370079 0))
+  (model "C:/Users/adam/Documents/GitHub/footprints/3D/STEP/S6B-PH-SM4-TB - S6B-PH-SM4.step"
+    (at (xyz -0.6259842519685039 0.5039370078740159 0))
     (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
+    (rotate (xyz 0 0 0))
   )
 )
